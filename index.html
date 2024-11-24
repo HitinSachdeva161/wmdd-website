@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>WMDD</title>
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/dd73891ee5.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+        <link rel="stylesheet" href="css/styles.css">
+        <style>
+            .active 
+            {
+                color: orange;
+            }
+        </style>
+        
+    </head>
+    <body>
+        
+        <header>
+            
+            <nav>
+                <img class="logo" src="img/logo.png" alt="wmdd-logo">
+                <ul class="nav-links">
+                    <li><a href="#hero-section">Home</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#programs-section">Programs</a></li>
+                    <li><a href="#gallery-section">Gallery</a></li></a>
+                    <li><a href="#testimonials-section">Testimonials</a></li></a>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+                <button class="cta">Apply Now</button>
+            </nav>
+
+            <div id="hero-section">
+                <h1>Welcome to Web and Mobile app Development Department.</h1>
+                <h2>Empowering students through innovative programs</h2>
+            </div>
+            
+        </header>
+        <main>
+            <div id="about-outer">
+                <h2 class="heading-h2">About Us</h2>
+                <div id="about-section">
+                    <img src="img/about.webp" alt="about-section-img">
+                    <span id="about-section-text">
+                        <!-- Text from ChatGPT -->
+                        <p>Langara College, located in the heart of Vancouver, has been at the forefront of education since its establishment in 1965. Over the years, our Web and Mobile App Development department has grown into a hub for aspiring tech professionals, focusing on equipping students with industry-relevant skills and a strong foundation in both theory and practical application.</p>
+                    
+                        <p>Our core values are innovation, collaboration, and excellence. We believe in fostering a learning environment that encourages creativity, adaptability, and critical thinking, helping students to thrive in a rapidly changing digital landscape. By prioritizing hands-on experience and mentorship, we aim to prepare students not only to excel in the tech industry but to shape its future as well.</p>
+                    </span>
+                </div>
+            </div>
+            <!-- <div id="program-outer">
+
+                <h2 class="heading-h2">Programs Offered</h2>
+                <div id="programs-section">
+                   
+                    <div class="program">
+                        <img src="img/web-dev.png" alt="by-Freepik">
+                        <h3>Web Development Program</h3>
+                        <p>Build a strong foundation in front-end and back-end development with industry-standard technologies.</p>
+                        <button id="apply-btn">Apply Now</button>
+                    </div>
+                    <div class="program">
+                        <img src="img/mobile.png" alt="by-Vectorslab">
+                        <h3>Mobile App Development Program</h3>
+                        <p>Learn to create powerful mobile applications using modern frameworks and design practices.</p>
+                        <button id="apply-btn">Apply Now</button>
+                    </div>
+                    <div class="program">
+                        <img src="img/full-stack.png" alt="by- Freepik">
+                        <h3>Full-Stack Development Program</h3>
+                        <p>Master both client-side and server-side technologies to become a versatile, full-stack developer.</p>
+                        <button id="apply-btn">Apply Now</button>
+                    </div>
+                    <div class="program">
+                        <img src="img/ux-design.png" alt="by-Muhammad_Usman">
+                        <h3>UX/UI Design Program</h3>
+                        <p>Gain a deep understanding of user experience and interface design to create engaging and user-friendly
+                            applications</p>
+                        <button id="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+            </div> -->
+            
+             <div id="program-outer">
+                <h2 class="heading-h2">Programs Offered</h2>
+                <div id="programs-section">
+                   
+                    <div class="program card">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="img/web-dev.png" alt="by-Freepik">
+                                <h3>Web Development Program</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>Build a strong foundation in front-end and back-end development with industry-standard technologies.</p>
+                                <button id="apply-btn">Apply Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program card">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="img/mobile.png" alt="by-Vectorslab">
+                                <h3>Apps Development Program</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>Learn to create powerful mobile applications using modern frameworks and design practices.</p>
+                                <button id="apply-btn">Apply Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program card">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="img/full-stack.png" alt="by- Freepik">
+                                <h3>Full-Stack Development Program</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>Master both client-side and server-side technologies to become a versatile, full-stack developer.</p>
+                                <button id="apply-btn">Apply Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program card">
+                        <div class="face face1">
+                            <div class="content">
+                                <img src="img/ux-design.png" alt="by-Muhammad_Usman">
+                                <h3>UX/UI Design Program</h3>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <p>Gain a deep understanding of user experience and interface design to create engaging and user-friendly applications.</p>
+                                <button id="apply-btn">Apply Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+            <!-- <div id="program-outer">
+                <h2 class="heading-h2">Programs Offered</h2>
+                <div id="programs-section">
+                    <div class="program">
+                        <div class="image">
+                            <img src="img/web-dev.png" alt="by-Freepik">
+                            <h3>Web Development Program</h3>
+                        </div>
+                        <div class="content">
+                            <p>Build a strong foundation in front-end and back-end development with industry-standard technologies.</p>
+                            <button class="apply-btn">Apply Now</button>
+                        </div>
+                    </div>
+                    <div class="program">
+                        <div class="image">
+                            <img src="img/mobile.png" alt="by-Vectorslab">
+                            <h3>Mobile App Development Program</h3>
+                        </div>
+                        <div class="content">
+                            <p>Learn to create powerful mobile applications using modern frameworks and design practices.</p>
+                            <button class="apply-btn">Apply Now</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div> -->
+            
+
+            <div id="gallery-outer">
+                
+                <h2 class="heading-h2">Gallery Section </h2>
+                <div id="gallery-section">
+                    <div class="img-box imgBox1">
+                        <picture>
+                            <source srcset="img/gallery1.webp" type="image/webp" media="(min-width:1000px)">
+                            <source srcset="img/gallery1.jpg" type="image/jpeg" media="(min-width:1000px)">
+                            <img src="img/gallery1-low.webp" alt="by-Langara-instagram-page" >
+                        </picture>
+                    </div>
+                    <div class="img-box imgBox2">
+                        <picture>
+                            <source srcset="img/gallery2.webp" type="image/webp" media="(min-width:1000px)">
+                            <source srcset="img/gallery2.jpg" type="image/jpeg" media="(min-width:1000px)">
+                            <img src="img/gallery2-low.webp" alt="by-Langara-instagram-page">
+                        </picture>
+                    </div>
+                    <div class="img-box imgBox3">
+                        <picture>
+                            <source srcset="img/gallery3.webp" type="image/webp" media="(min-width:1000px)">
+                            <source srcset="img/gallery3.jpg" type="image/jpeg" media="(min-width:1000px)">
+                            <img src="img/gallery3-low.webp" alt="by-Langara-instagram-page">
+                        </picture>
+                    </div>
+                    <div class="img-box imgBox4">
+                        <picture>
+                            <source srcset="img/gallery4.webp" type="image/webp" media="(min-width:1000px)">
+                            <source srcset="img/gallery4.jpg" type="image/jpeg" media="(min-width:1000px)">
+                            <img src="img/gallery4-low.webp" alt="by-Langara-instagram-page">
+                        </picture>
+                    </div>
+                    <div class="img-box imgBox5">
+                        <picture>
+                            <source srcset="img/gallery5.webp" type="image/webp" media="(min-width:1000px)">
+                            <source srcset="img/gallery5.jpg" type="image/jpeg" media="(min-width:1000px)">
+                            <img src="img/gallery5-low.webp" alt="by-Langara-instagram-page">
+                        </picture>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Testimonials -->
+
+            <div class="testimonials-section" id="testimonials-section">
+                <h2>What Our Alumni Say</h2>
+                <div class="testimonial-carousel">
+                  <div class="testimonial-track">
+                    <div class="testimonial-card">
+                      <img src="img/al1.webp" alt="Alumni Image">
+                      <h3>Hitin Sachdeva</h3>
+                      <p>"This program helped me turn my passion for coding into a career. The hands-on projects gave me the confidence to build user-friendly websites."</p>
+                      <div class="alumni-role">Full-Stack Developer</div>
+                    </div>
+                    <div class="testimonial-card">
+                      <img src="img/al2.webp" alt="Alumni Image">
+                      <h3>Akash Anand</h3>
+                      <p>"Combining creativity with technical skills, I learned to design impactful user experiences. It’s been the foundation of my success"</p>
+                      <div class="alumni-role">UI/UX designer</div>
+                    </div>
+                    <div class="testimonial-card">
+                      <img src="img/al3.webp" alt="Alumni Image">
+                      <h3>Vipan Kumar</h3>
+                      <p>"From designing to deploying apps, the program prepared me to bring ideas to life. The support from faculty was incredible!"</p>
+                      <div class="alumni-role">Mobile App Developer</div>
+                    </div>
+                    <div class="testimonial-card">
+                      <img src="img/al4.webp" alt="Alumni Image">
+                      <h3>Rahul Gandhi</h3>
+                      <p>"Learning modern frameworks and collaborating on projects gave me the skills to build dynamic web solutions. A game-changer for my career!"</p>
+                      <div class="alumni-role">Front-End Developer</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div id="contact-outer">
+                <h2 class="heading-h2">Contact Us</h2>
+                <div id="contact-section">
+                    <img src="img/contact.png" alt="Image by freepik">
+                    <div id="form-outer">
+                        <form>
+                            <label for="name">Name</label>
+                            <input id="name" type="text" placeholder="Hxxxxx">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" placeholder="abc@gmail.com">
+                            <label for="phone">Phone</label>
+                            <input id="phone" type="tel" placeholder="+17722######">
+                            <label for="msg">Message</label>
+                            <textarea name="msg" id="msg" placeholder="Write here..."></textarea><br>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <img src="img/logo.png" alt="">
+            <div id="social">
+                <!-- Icons from fontawesome -->
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+            
+            <div id="other-footer-part">
+                <div>
+                    <a href="https://maps.app.goo.gl/aYNvHNEXy4ohk9JEA">
+                        <i class="fa-solid fa-location-dot"></i>
+                        100 West 49th Avenue, Vancouver B.C., Canada
+                    </a>
+                </div>
+                <div>
+                    <a href="tel:604.323.5511">
+                        <i class="fa-solid fa-phone"></i>
+                        604.323.5511
+                    </a>
+                </div>
+                <div>
+                    <a href="mailto:contact@langara.ca">
+                        <i class="fa-solid fa-envelope"></i>
+                        contact@langara.ca
+                    </a>
+                </div>
+            </div>
+            
+        </footer>
+        
+        <script>
+            $(document).ready(function () {
+                $('.nav-links li a').click(function () {
+                    $('.nav-links li a').removeClass('active');
+                    $(this).addClass('active');
+                });
+            });
+        </script>
+    </body>
+</html>
